@@ -30,5 +30,16 @@ namespace Bakery.Controllers
             cakesListViewModel.CurrentCategory = "Cheese Cakes";
             return View(cakesListViewModel);
         }
+
+        public IActionResult Details(int id)
+        {
+            var cake = _cakesRepository.GetCakesById(id);
+
+            if (cake == null)
+                return NotFound();
+
+            return View(cake);
+                    
+        }
     }
 }

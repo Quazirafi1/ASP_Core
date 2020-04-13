@@ -18,8 +18,13 @@ using Bakery.ViewModels;
 
 #line default
 #line hidden
+#line 3 "C:\Users\quazi\source\repos\Bakery\Bakery\Views\_ViewImports.cshtml"
+using Bakery.Models;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2dc04b1907dca5a70b6e87dc2ad02aa2f0f0f4d1", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"07ce57ca750569b3889a925250d4b852581badff", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

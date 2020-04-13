@@ -35,6 +35,9 @@ namespace Bakery
 
             services.AddScoped<ICakesRepository, CakesRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<ShoppingCart>(sp => ShoppingCart.GetCart(sp));
+            services.AddHttpContextAccessor();
+            services.AddSession();
             //services.AddTransient
             //services.AddSingleton();
             services.AddMvc();
@@ -50,8 +53,16 @@ namespace Bakery
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseSession();
 
-            app.UseMvcWithDefaultRoute();
+            //app.UseMvcWithDefaultRoute();
+
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Home}/{action=Index}/{id?}");
+            });
         }
     }
 }
