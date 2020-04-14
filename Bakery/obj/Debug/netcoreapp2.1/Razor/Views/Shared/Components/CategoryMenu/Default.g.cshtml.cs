@@ -59,7 +59,7 @@ using Bakery.Models;
             WriteLiteral("\r\n<li class=\"dropdown\">\r\n    ");
             EndContext();
             BeginContext(59, 138, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cd64552603404342adcdaa72bdf11ef3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b4e6799a5bf846648d873fd2383d3b2d", async() => {
                 BeginContext(167, 26, true);
                 WriteLiteral("Cakes<b class=\"caret\"></b>");
                 EndContext();
@@ -94,7 +94,7 @@ using Bakery.Models;
             WriteLiteral("            <li>\r\n                ");
             EndContext();
             BeginContext(318, 134, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "03f9b4f32dc74683961ebaec3587aa46", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a9e26794e1354f9b8152d6fb6d478d91", async() => {
                 BeginContext(427, 21, false);
 #line 12 "C:\Users\quazi\source\repos\Bakery\Bakery\Views\Shared\Components\CategoryMenu\Default.cshtml"
                                                           Write(category.CategoryName);
@@ -143,7 +143,7 @@ using Bakery.Models;
             WriteLiteral("        <li class=\"divider\"></li>\r\n        <li>\r\n            ");
             EndContext();
             BeginContext(545, 84, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "474a4b4afb634ce3a186d9d6b1134453", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "16d87e120bca4fe49cf8cd64afb953f1", async() => {
                 BeginContext(611, 14, true);
                 WriteLiteral("View all cakes");
                 EndContext();

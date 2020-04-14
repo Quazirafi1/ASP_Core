@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Bakery.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Bakery.Controllers
 {
+    [Authorize]
     public class OrderController : Controller
     {
-
         private readonly IOrderRepository _orderRepository;
         private readonly ShoppingCart _shoppingCart;
 
@@ -20,11 +21,14 @@ namespace Bakery.Controllers
             _orderRepository = orderRepository;
             _shoppingCart = shoppingCart;
         }
+
+        // GET: /<controller>/
         public IActionResult Checkout()
         {
             return View();
         }
 
+        [HttpPost]
         public IActionResult Checkout(Order order)
         {
             var items = _shoppingCart.GetShoppingCartItems();

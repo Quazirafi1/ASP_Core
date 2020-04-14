@@ -136,7 +136,7 @@ using Bakery.Models;
             WriteLiteral("\r\n            </td>\r\n        </tr>\r\n    </tfoot>\r\n</table>\r\n\r\n<div class=\"text-center\">\r\n    ");
             EndContext();
             BeginContext(1149, 90, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0d15ebbe67a34a20a8fdac0a10169107", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5602b7bd9ca64acbbfe2db0855df3fe7", async() => {
                 BeginContext(1221, 14, true);
                 WriteLiteral("Check Out Now!");
                 EndContext();

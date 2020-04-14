@@ -55,7 +55,7 @@ using Bakery.Models;
             WriteLiteral("<h3>\r\n    Please contact us by sending an email using the button below\r\n\r\n</h3>\r\n\r\n");
             EndContext();
             BeginContext(83, 62, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("email", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6814b759f5e44033b3908f9fddda017d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("email", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "217b63aa503147eb9c91c82cca54e719", async() => {
             }
             );
             __Bakery_TagHelpers_EmailTagHelper = CreateTagHelper<global::Bakery.TagHelpers.EmailTagHelper>();

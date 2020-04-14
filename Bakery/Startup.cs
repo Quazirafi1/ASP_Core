@@ -33,6 +33,8 @@ namespace Bakery
 
             );
 
+            services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<AppDbContext>();
+
             services.AddScoped<ICakesRepository, CakesRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
@@ -42,7 +44,7 @@ namespace Bakery
             services.AddSession();
             //services.AddTransient
             //services.AddSingleton();
-            services.AddMvc();
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -57,6 +59,8 @@ namespace Bakery
             app.UseStaticFiles();
             app.UseSession();
 
+            app.UseAuthentication();
+            
             //app.UseMvcWithDefaultRoute();
 
             app.UseMvc(routes =>
