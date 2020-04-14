@@ -24,7 +24,7 @@ using Bakery.Models;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"88cfd91a5141128f09bd4a528ca911966fdb5f62", @"/Views/Shared/_CakesCard.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"07ce57ca750569b3889a925250d4b852581badff", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6ce9a0bb7156fb1977de8680bb6195ba0d5a7e8f", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__CakesCard : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Cakes>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Cakes", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -78,7 +78,7 @@ WriteAttributeValue("", 105, Model.ImageThumbnailUrl, 105, 24, false);
             WriteLiteral("</h3>\r\n            <h3>\r\n                ");
             EndContext();
             BeginContext(273, 92, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8353d82128bc42a097b509372aeef087", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "55f7e381c3d64db7b7285ce8b62b7144", async() => {
                 BeginContext(351, 10, false);
 #line 9 "C:\Users\quazi\source\repos\Bakery\Bakery\Views\Shared\_CakesCard.cshtml"
                                                                                         Write(Model.Name);
@@ -129,7 +129,7 @@ WriteAttributeValue("", 105, Model.ImageThumbnailUrl, 105, 24, false);
             WriteLiteral("</p>\r\n        </div>\r\n        <div class=\"addToCart\">\r\n            <p class=\"button\">\r\n                ");
             EndContext();
             BeginContext(527, 198, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b8f045543f742b89d349dc36581734d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "78f03faeefa64d4cb8317432dedc0a68", async() => {
                 BeginContext(710, 11, true);
                 WriteLiteral("Add to cart");
                 EndContext();
